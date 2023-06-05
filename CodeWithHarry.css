@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+.flex{
+    display: flex;
+}
+header{
+    position: sticky;
+    overflow: hidden;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+.navbar_main_container{
+    height: 12vh;
+    border-bottom: 1px solid rgb(213, 191, 238);
+}
+.web_name_container{
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.web_name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color:#4f46e5;
+}
+.nav_button_link_container{
+    width: 85%;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+}
+.nav_link_container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.nav_link_container ul li{
+    list-style: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+.nav_link_container ul li :hover{
+    color: #000dff;
+    font-size: 17px;
+
+    
+}
+.nav_link_container ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.log_sign button{
+    margin: 2px;
+    padding: 7px 10px;
+    background-color:rgba(91,33,182);
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+.log_sign :hover{
+    background-color: #5a5af3f9;
+    padding: 8px 11px;
+
+}
+.welcome_page_container{
+    justify-content: center;
+    height: 55vh;
+}
+.welcome_content{
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.paragraph{
+    width: 90%;
+}
+.paragraph p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: #757b88;
+}
+.welcome_image{
+    width: 48%;
+}
+.free_course{
+    background-color: black; 
+    color: rgb(219, 202, 202);
+    border: transparent;
+    cursor: pointer;
+}
+.explore_blog{
+    background-color: #d1d5db;
+    border: transparent;
+    cursor: pointer;
+}
+.explore_button{
+    margin-top: 0.5rem;
+}
+.explore_button button{
+    padding: 10px;
+    margin: 0.5rem;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+.explore_button :hover{
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.13);
+    background-color: #7cf0f4;
+    color: black;
+}
+.course_description h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+.course_list_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.course_list{
+    display: flex;
+    justify-content: center;
+    width: 27%;
+    margin: 2rem;
+}
+.rounded_list{
+    border: 1px solid rgb(213, 191, 238);
+    border-radius: 1rem;
+    margin: 1.5rem 1rem;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.13);
+}
+.rounded_list img{
+    width: 100%;
+}
+.list_discription{
+    margin: 1.3rem;
+}
+.course_span{
+    color: grey;
+    font-size: 0.8rem;
+} 
+.rounded_list h4{
+    margin-bottom: 1rem;
+    margin-top: 0.3rem;
+}
+.rounded_list p{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #3a3c41;
+}
+.start_watching{
+    margin: 4rem 0rem 1.5rem 1.5rem;
+}
+.start_watching span {
+    background-color: #5b21b6;
+    color: white;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.start_watching :hover{
+    background-color: #7cf0f4;
+    color: green;
+    padding: 0.7rem;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.13);
+}
+.reviews_container h2{
+    text-align: center;
+    padding: 1rem;
+}
+.all_reviews{
+    justify-content: center;
+}
+.review{
+    width: 48%;
+    justify-content: center;  
+}
+.review_disc{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f3f4f6;
+}
+.quots{
+    font-size: 3rem;
+    color: gray;
+}
+.review_disc p{
+    line-height: 1.5rem;
+    color: #6d7481;
+    font-size: 1rem;
+}
+.name_profesion{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+.name{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.profesion{
+    color: #585454;
+    margin-top: 4px;
+}
+.footer_img_info{
+    display: flex;
+    margin: 4rem;
+    align-content: center;
+    align-items: center;
+}
+.footer_img_info img{
+    width: 3rem;
+    margin: 0rem 1rem;
+}
+.info{
+    font-size: 1.5rem;
+}
+.copyright{
+    margin-left: 1rem;
+}
+.fac_inst{
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+    align-items: center;
+}
